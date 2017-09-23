@@ -17,9 +17,10 @@ class vehicle(object):
         return self.brand + " " + self.model
 
 
-def print_full_list(self):
-    print "Znamka in model: " + self.brand + " " + self.model
-    print "Št. prevoženih km: " + self.km_driven
-    print "Zadnji servis: " + self.servis
-    print ""
+    def print_full_list(vehicle_list):
+        for i in range(len(vehicle_list)):
+            print "Znamka in model: " + self.brand + " " + self.model
+            print "Št. prevoženih km: " + self.km_driven
+            print "Zadnji servis: " + self.servis
+            print ""
 
